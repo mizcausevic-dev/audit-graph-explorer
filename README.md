@@ -63,3 +63,6 @@ Most audit and governance tooling stops at tables, timelines, or ticket queues. 
 
 That makes it a useful companion to the broader portfolio themes around identity governance, vendor risk, workflow orchestration, and executive control-room reporting.
 
+---
+
+**Connect:** [LinkedIn](https://www.linkedin.com/in/mirzacausevic/) · [Kinetic Gain](https://kineticgain.com) · [Medium](https://medium.com/@mizcausevic/) · [Skills](https://mizcausevic.com/skills/)

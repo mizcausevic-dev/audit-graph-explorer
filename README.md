@@ -26,21 +26,21 @@
 
 ## Repo Layout
 
-- [graph/schema.cypher](C:/Users/chaus/dev/repos/audit-graph-explorer/graph/schema.cypher): constraints and indexes
-- [graph/seed.cypher](C:/Users/chaus/dev/repos/audit-graph-explorer/graph/seed.cypher): sample graph load
-- [graph/queries.cypher](C:/Users/chaus/dev/repos/audit-graph-explorer/graph/queries.cypher): investigation queries
-- [data/graph_snapshot.json](C:/Users/chaus/dev/repos/audit-graph-explorer/data/graph_snapshot.json): local graph snapshot mirrored from the Cypher seed
-- [src/audit_graph_report.py](C:/Users/chaus/dev/repos/audit-graph-explorer/src/audit_graph_report.py): shortest-path, blast-radius, and pressure logic
-- [scripts/run_demo.py](C:/Users/chaus/dev/repos/audit-graph-explorer/scripts/run_demo.py): local report runner
-- [scripts/render_readme_assets.py](C:/Users/chaus/dev/repos/audit-graph-explorer/scripts/render_readme_assets.py): PNG proof generator
-- [docs/architecture.md](C:/Users/chaus/dev/repos/audit-graph-explorer/docs/architecture.md): graph design write-up
+- [graph/schema.cypher](./graph/schema.cypher): constraints and indexes
+- [graph/seed.cypher](./graph/seed.cypher): sample graph load
+- [graph/queries.cypher](./graph/queries.cypher): investigation queries
+- [data/graph_snapshot.json](./data/graph_snapshot.json): local graph snapshot mirrored from the Cypher seed
+- [src/audit_graph_report.py](./src/audit_graph_report.py): shortest-path, blast-radius, and pressure logic
+- [scripts/run_demo.py](./scripts/run_demo.py): local report runner
+- [scripts/render_readme_assets.py](./scripts/render_readme_assets.py): PNG proof generator
+- [docs/architecture.md](./docs/architecture.md): graph design write-up
 
 ## Local Validation
 
 ### Python report and tests
 
 ```powershell
-Set-Location "C:\Users\chaus\dev\repos\audit-graph-explorer"
+cd audit-graph-explorer
 py -3.11 -m pip install -r requirements-dev.txt
 py -3.11 scripts\run_demo.py
 py -3.11 -m unittest discover -s tests
